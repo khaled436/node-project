@@ -1,0 +1,16 @@
+body {
+  font-family: Arial;
+  background-color: #f5f5f5;
+}
+.container {
+  max-width: 800 px;
+  margin: 0 auto;
+  background: white;
+  padding: 20 px;
+}
+#result.success {
+  color: green;
+}
+#result.error {
+  color: red;
+}

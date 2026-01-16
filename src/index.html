@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mon App JS-Jenkins TP</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Application JavaScript</h1>
+      <section class="calculator">
+        <input type="number" id="num1"/>
+        <select id="operation">
+          <option value="add">+</option>
+          <option value="subtract">-</option>
+        </select>
+        <input type="number" id="num2"/>
+        <button onclick="calculate()">Calculer</button>
+        <div id="result"></div>
+      </section>
+    </div>
+    <script src="utils.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
